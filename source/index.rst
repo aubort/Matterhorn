@@ -24,4 +24,4 @@ asdasdasd::
 
 ``put some code here``
 
-I can also write the doc directly in github
+I can also write the doc directly in github. I've added a gitignore file. 
