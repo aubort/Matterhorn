@@ -14,7 +14,7 @@ module.exports = function (grunt) {
                 options: {
                     port: 9000,
                     hostname: "0.0.0.0",
-                    bases: ["matterhorn/build/html"], // Replace with the directory you want the files served from
+                    bases: ["build/html"], // Replace with the directory you want the files served from
                     // Make sure you don't use `.` or `..` in the path as Express
                     // is likely to return 403 Forbidden responses if you do
                     // http://stackoverflow.com/questions/14594121/express-res-sendfile-throwing-forbidden-error
@@ -31,7 +31,7 @@ module.exports = function (grunt) {
                 // or an Array of String for multiple entries
                 // You can use globing patterns like `css/**/*.css`
                 // See https://github.com/gruntjs/grunt-contrib-watch#files
-                files: 'matterhorn/source/*',
+                files: 'source/*',
                 tasks: ['build'],
                 options: {
                     livereload: true
@@ -49,7 +49,7 @@ module.exports = function (grunt) {
 
         exec: {
             build_sphinx: {
-                cmd: 'sphinx-build -T -b html matterhorn/source matterhorn/build/html'
+                cmd: 'sphinx-build -T -b html source build/html'
             }
         },
         clean: {
