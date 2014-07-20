@@ -24,4 +24,7 @@ asdasdasd::
 
 ``put some code here``
 
-I can also write the doc directly in github. I've added a gitignore file. 
+I can also write the doc directly in github. I've added a gitignore file.
+
+
+.. image:: _static/img/login.png
