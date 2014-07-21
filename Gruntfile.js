@@ -36,6 +36,18 @@ module.exports = function (grunt) {
                 options: {
                     livereload: true
                 }
+            },
+            index: {
+                // Replace with whatever file you want to trigger the update from
+                // Either as a String for a single entry
+                // or an Array of String for multiple entries
+                // You can use globing patterns like `css/**/*.css`
+                // See https://github.com/gruntjs/grunt-contrib-watch#files
+                files: 'source/index.rst',
+                tasks: ['build_all'],
+                options: {
+                    livereload: true
+                }
             }
         },
 
@@ -49,7 +61,10 @@ module.exports = function (grunt) {
 
         exec: {
             build_sphinx: {
-                cmd: 'sphinx-build source build/html'
+                cmd: 'sphinx-build -b html source build/html'
+            },
+            build_all: {
+                cmd: 'sphinx-build -a source build/html'
             }
         },
         clean: {
@@ -62,4 +77,5 @@ module.exports = function (grunt) {
     // Creates the `server` task
     grunt.registerTask('default', ['express', 'open', 'watch']);
     grunt.registerTask('build', ['exec:build_sphinx']);
+    grunt.registerTask('build_all', ['exec:build_all']);
 };
