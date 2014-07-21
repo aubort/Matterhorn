@@ -13,18 +13,6 @@ Contents:
 
    intro
    strings
-
-
-asdasdasd::
-
-  asdkja lksjd
-  aslkdj alksjd asd
-  asdlakjsdlkaj sd
-  asdasdasdasdasdasdasdasdadsasd
-
-``put some code here``
-
-I can also write the doc directly in github. I've added a gitignore file.
-
+   faq
 
 .. image:: _static/img/login.png

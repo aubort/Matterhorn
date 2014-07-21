@@ -49,7 +49,7 @@ module.exports = function (grunt) {
 
         exec: {
             build_sphinx: {
-                cmd: 'sphinx-build -T -b html source build/html'
+                cmd: 'sphinx-build source build/html'
             }
         },
         clean: {
