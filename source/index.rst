@@ -15,4 +15,6 @@ Contents:
    strings
    faq
 
+Here is a nice screenshot of the login page!
+
 .. image:: _static/img/login.png
