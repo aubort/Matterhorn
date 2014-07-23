@@ -172,6 +172,12 @@ This will trigger a build on the readthedocs.com server and you should see your 
 on http://matterhorn.readthedocs.org/en/latest/
 
 
+~~~~~~~~~~~~~~~~~~~
+Editing on the fly
+~~~~~~~~~~~~~~~~~~~
+Documentation can even be edited directly inside github. Go to https://github.com/aubort/Matterhorn.git select a file
+and press the edit button.
+
 =================
 References
 =================
