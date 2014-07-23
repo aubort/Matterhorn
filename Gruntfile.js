@@ -75,7 +75,7 @@ module.exports = function (grunt) {
 
 
     // Creates the `server` task
-    grunt.registerTask('default', ['express', 'open', 'watch']);
+    grunt.registerTask('default', ['exec:build_all', 'express', 'open', 'watch']);
     grunt.registerTask('build', ['exec:build_sphinx']);
     grunt.registerTask('build_all', ['exec:build_all']);
 };
