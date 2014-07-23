@@ -11,10 +11,12 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   intro
-   strings
-   faq
+  intro
+  strings
+  faq
 
 Here is a nice screenshot of the login page!
 
 .. image:: _static/img/login.png
+
+.. image:: _static/img/SC.png
