@@ -18,8 +18,22 @@ Make sure python is installed by typing ``python`` in your terminal.
 The current version of python installed should show.
 
 -----------------
-MacPorts and Sphinx
+Sphinx
 -----------------
+`Sphinx <http://sphinx-doc.org>`_ can be installed in two different ways. If possible avoid to use
+MacPorts since it may interfere with Homebrew.
+
+~~~~~~~~~~~~~~~~~
+Via easy_install
+~~~~~~~~~~~~~~~~~
+This is the preferred way to install Sphinx::
+
+    sudo easy_install -U Sphinx
+
+
+~~~~~~~~~~~~~~~~~
+Via MacPorts
+~~~~~~~~~~~~~~~~~
 Follow the instructions to install Sphinx - you will need to use mac ports to
 do that, but all the instructions are here!
 
