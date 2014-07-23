@@ -158,7 +158,7 @@ This will trigger a build on the readthedocs.com server and you should see your 
 on http://matterhorn.readthedocs.org/en/latest/
 
 
------------------
+=================
 References
------------------
+=================
 `Reference about reStructuredText <http://sphinx-doc.org/rest.html>`_
